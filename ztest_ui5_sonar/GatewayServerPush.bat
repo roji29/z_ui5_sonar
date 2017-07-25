@@ -2,7 +2,7 @@
 echo Executing commands please wait...
 echo ------------------------------
 color 0A
-cd %Ztest_Latest%
+cd %ztest_ui5_sonar%
 call npm install grunt
 call npm install grunt-cli
 call npm install grunt-openui5
