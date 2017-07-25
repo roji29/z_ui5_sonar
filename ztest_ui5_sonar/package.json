@@ -1,12 +1,12 @@
 {
-  "name": "Ztest_Latest",
+  "name": "ztest_ui5_sonar",
   "version": "1.0.1",
   "description": "Test UI5",
   "license": "MIT",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roji29/Zdevops.git"
+    "url": "https://github.com/roji29/z_ui5_sonar.git"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

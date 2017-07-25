@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         options: {
           resources: {
             cwd: 'WebContent',
-            prefix: 'Ztest_Latest',
+            prefix: 'ztest_ui5_sonar',
             src: [
               '**/*.js',
               '**/*.fragment.html',
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
                 options: {
                     ui5: {
                         package: '$TMP',
-                        bspcontainer: 'Ztest_Latest',
+                        bspcontainer: 'ztest_ui5_sonar',
                         bspcontainer_text: 'Test Grunt UI5 upload test',
                         calc_appindex : true // Clear Cache
                     },
