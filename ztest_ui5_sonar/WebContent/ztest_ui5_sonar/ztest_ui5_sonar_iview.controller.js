@@ -5,9 +5,15 @@ sap.ui.controller("ztest_ui5_sonar.ztest_ui5_sonar_iview", {
 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 * @memberOf ztest_ui5_sonar.ztest_ui5_sonar_iview
 */
-//	onInit: function() {
-//
-//	},
+	onInit: function() {
+	
+	document.write("<h2>Table of Factorials</h2>");
+	for(i = 1, fact = 1; i < 10; i++, fact *= i) {
+	    document.write(i + "! = " + fact);
+	    document.write("<br>");
+	}
+	
+	},
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
